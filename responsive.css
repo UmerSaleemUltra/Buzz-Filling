@@ -1,0 +1,122 @@
+/* Ensure overflow-x is hidden to prevent horizontal scrolling */
+body, html {
+    overflow-x: hidden !important;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .btn-custom {
+        font-size: 1rem !important;
+        padding: 10px 20px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn-custom {
+        font-size: 0.875rem !important;
+        padding: 8px 16px !important;
+    }
+
+    .faq-title {
+        font-size: 2rem !important;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem !important;
+    }
+
+    .cta-section .lead {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-custom {
+        font-size: 0.75rem !important;
+        padding: 6px 12px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .faq-title {
+        font-size: 1.5rem !important;
+    }
+
+    .accordion-item {
+        font-size: 18px !important;
+    }
+
+    .cta-section h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .cta-section .lead {
+        font-size: 0.75rem !important;
+    }
+
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-custom {
+        font-size: 1rem !important;
+        padding: 4px 8px !important;
+        width: 50px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .faq-title {
+        font-size: 1.25rem !important;
+    }
+
+   
+
+    .cta-section h2 {
+        font-size: 1.25rem !important;
+    }
+
+    .cta-section .lead {
+        font-size: 0.75rem !important;
+    }
+
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #FAQS {
+        margin-top: 0 !important;
+        padding-bottom: 20px !important; /* Adjust padding to create space */
+    }
+}
+
+
+
+@media (max-widht: 576px) {
+.grow{
+font-size: 1rem;
+}
+}
+
+@media (max-width: 576px) { 
+    footer {
+        height: 1px;
+    }
+
+
+    .footer-text{
+    text-align: center;
+    }
+}
+
+
+@media (max-width: 576px) { 
+    .mo {
+        margin-top: 100px;
+    }
+}
